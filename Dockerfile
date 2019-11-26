@@ -1,4 +1,5 @@
-FROM python:3.8.0b4-buster
+FROM python:slim 
+#3.8.0b4-buster 
 
 COPY ./requirements.txt /app/requirements.txt
 
