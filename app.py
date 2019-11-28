@@ -1,19 +1,21 @@
 from flask import Flask
 from flask import jsonify
-from flask import Flask
 import psycopg2
+import os 
+
 
 app = Flask(__name__)
 
+DATABASE_URL= os.environ.get("DATABASE_URL")
 
 @app.route('/testdb', methods=['GET'])
 def postgres_test():
     try:
-        conn = psycopg2.connect(database="postgres", user="postgres", password="root", host="db", port="5432")
-        conn.close()
-        return "Database Connected"
+      conn = psycopg2.connect(DATABASE_URL)
+      conn.close()
+      return "Database Connected"
     except:
-        return "Error connexion Database"
+      return "Error connexion Database"
     
 
 

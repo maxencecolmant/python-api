@@ -9,6 +9,8 @@ services:
       - 5000:5000
     links:
       - db
+    environment:
+      - DATABASE_URL=dbname='postgres' user='postgres' host='db' password='root'
 
   db:
     image: postgres

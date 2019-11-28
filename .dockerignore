@@ -1,0 +1,7 @@
+.vscode
+postgres-data/
+docker-compose.yaml
+Dockerfile
+chart/
+helm-master/
+README.md
