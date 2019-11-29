@@ -1,3 +1,0 @@
-Congratulations, you have deployed your  Application to Kubernetes using Helm!
-
-
