@@ -1,3 +1,5 @@
 Flask==1.1.1
 flask_sqlalchemy
 psycopg2-binary
+flask-restplus==0.13.0
+flask-restplus-relative-swagger

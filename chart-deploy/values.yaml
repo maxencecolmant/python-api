@@ -6,6 +6,7 @@ replicaCount: 1
 
 image:
   repository: maxencecolmant/pyapp
+  tag: db-postgres
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []

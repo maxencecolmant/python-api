@@ -5,3 +5,4 @@ Dockerfile
 chart/
 helm-master/
 README.md
+env/

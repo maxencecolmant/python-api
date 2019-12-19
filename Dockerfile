@@ -12,7 +12,7 @@ COPY . /app
 
 USER 1000
 
-EXPOSE 5000
+EXPOSE 7070
 
 ENTRYPOINT [ "python" ]
 
