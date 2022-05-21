@@ -1,5 +1,5 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-
+.devcontainer
 # Created by https://www.gitignore.io/api/visualstudiocode,macos,dotenv,pycharm,pycharm+all,pycharm+iml,python,venv
 # Edit at https://www.gitignore.io/?templates=visualstudiocode,macos,dotenv,pycharm,pycharm+all,pycharm+iml,python,venv
 
