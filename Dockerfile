@@ -1,9 +1,9 @@
-FROM python:slim 
-#3.8.0b4-buster 
+FROM python:3.8-slim
 
 COPY ./requirements.txt /app/requirements.txt
 
 WORKDIR /app
+
 RUN useradd -u 1000 --create-home -s /bin/bash appuser
 
 RUN pip install -r requirements.txt
