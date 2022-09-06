@@ -3,7 +3,7 @@ version: "3.1"
 
 services:
   app:
-    build: .
+    image: python-api:kub
     restart: always
     ports:
       - 7070:7070
@@ -13,7 +13,7 @@ services:
       - DATABASE_URL=dbname='postgres' user='postgres' host='db' password='root'
 
   db:
-    image: postgres
+    image: maxencecolmant/api-python:kub
     restart: always
     environment:
       POSTGRES_PASSWORD: root
